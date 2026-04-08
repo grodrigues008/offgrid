@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>offgrid3d — Fora da rede, dentro da inovação</title>
+  <meta name="description" content="offgrid3d: impressão 3D personalizada em Portugal. Criamos peças únicas, protótipos e produtos personalizados com tecnologia de ponta." />
+  <link rel="icon" type="image/x-icon" href="images/logo_redondo.ico" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════ HEADER ═══════ -->
+  <header id="header" role="banner">
+    <div class="header-inner">
+      <a href="#inicio" class="brand" aria-label="offgrid3d — voltar ao início">
+        <div class="brand-text">
+          <span class="brand-name">offgrid3d</span>
+          <span class="brand-slogan">Fora da rede, dentro da inovação</span>
+        </div>
+      </a>
+
+      <button class="nav-toggle" id="navToggle"
+              aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+        <a href="#inicio"   class="nav-link">Início</a>
+        <a href="#produtos" class="nav-link">Produtos</a>
+        <a href="#sobre"    class="nav-link">Sobre Nós</a>
+        <a href="#contactos" class="nav-link cta-nav">Contactos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ═══════ HERO ═══════ -->
+    <section id="inicio" class="hero" aria-label="Introdução">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="grid-lines"></div>
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-badge">✦ Impressão 3D Personalizada</div>
+        <img src="images/logo.jpeg" alt="Logótipo offgrid3d" class="hero-logo" />
+        <h1 class="hero-title">
+          <span>Fora da rede,</span>
+          <span class="hero-accent">dentro da<br>inovação.</span>
+        </h1>
+        <p class="hero-desc">
+          Transformamos ideias em objetos reais. Da prototipagem à peça final,
+          criamos produtos únicos com precisão milimétrica — directamente para as
+          tuas mãos.
+        </p>
+        <div class="hero-actions">
+          <a href="#produtos" class="btn btn-primary">Ver Produtos</a>
+          <a href="#contactos" class="btn btn-ghost">Falar Connosco</a>
+        </div>
+      </div>
+
+      <div class="hero-stats" aria-label="Destaques">
+        <div class="stat">
+          <span class="stat-num">17+</span>
+          <span class="stat-label">Modelos Disponíveis</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Personalizado</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat-num">FDM</span>
+          <span class="stat-label">Tecnologia de Ponta</span>
+        </div>
+      </div>
+
+      <a href="#produtos" class="scroll-hint" aria-label="Rolar para produtos">
+        <span class="scroll-arrow"></span>
+      </a>
+    </section>
+
+    <!-- ═══════ PRODUTOS ═══════ -->
+    <section id="produtos" class="produtos" aria-label="Produtos">
+      <div class="section-header">
+        <div class="section-tag">— Galeria</div>
+        <h2 class="section-title">Os Nossos <span class="accent">Produtos</span></h2>
+        <p class="section-desc">
+          Cada peça é fabricada por encomenda. Escolhe, personaliza e recebe em casa.
+        </p>
+      </div>
+
+      <!-- CARROSEL -->
+      <div class="carousel-wrap" role="region" aria-label="Carrossel de produtos" aria-roledescription="carrossel">
+        <div class="carousel" id="carousel">
+          <div class="carousel-track" id="carouselTrack" aria-live="polite">
+
+            <div class="carousel-slide" role="group" aria-roledescription="diapositivo" aria-label="Produto 1 de 17">
+              <div class="slide-inner">
+                <img src="images/produtos/produto01.jpeg" alt="Produto offgrid3d 1" loading="lazy" />
+                <div class="slide-overlay"><span>Ver em detalhe</span></div>
+              </div>
+            </div>
+
+            <div class="carousel-slide" role="group" aria-roledescription="diapositivo" aria-label="Produto 2 de 17">
+              <div class="slide-inner">
+                <img src="images/produtos/produto02.jpeg" alt="Produto offgrid3d 2" loading="lazy" />
+                <div class="slide-overlay"><span>Ver em detalhe</span></div>
+              </div>
+            </div>
+
+            <div class="carousel-slide" role="group" aria-roledescription="diapositivo" aria-label="Produto 3 de 17">
+              <div class="slide-inner">
+                <img src="images/produtos/produto03.jpeg" alt="Produto offgrid3d 3" loading="lazy" />
+                <div class="slide-overlay"><span>Ver em detalhe</span></div>
+              </div>
+            </div>
+
+            <div class="carousel-slide" role="group" aria-roledescription="diapositivo" aria-label="Produto 4 de 17">
+              <div class="slide-inner">
+                <img src="images/produtos/produto04.jpeg" alt="Produto offgrid3d 4" loading="lazy" />
+                <div class="slide-overlay"><span>Ver em detalhe</span></div>
+              </div>
+            </div>
+
+            <div class="carousel-slide" role="group" aria-roledescription="diapositivo" aria-label="Produto 5 de 17">
+              <div class="slide-inner">
+                <img src="images/produtos/produto05.jpeg" alt="Produto offgrid3d 5" loading="lazy" />
+                <div class="slide-overlay"><span>Ver em detalhe</span></div>
+              </div>
+            </div>
+
+            <div class="carousel-slide" role="group" aria-roledescription="diapositivo" aria-label="Produto 6 de 17">
+              <div class="slide-inner">
+                <img src="images/produtos/produto06.jpeg" alt="Produto offgrid3d 6" loading="lazy" />
+                <div class="slide-overlay"><span>Ver em detalhe</span></div>
+              </div>
+            </div>
+
+            <div class="carousel-slide" role="group" aria-roledescription="diapositivo" aria-label="Produto 7 de 17">
+              <div class="slide-inner">
+                <img src="images/produtos/produto07.jpeg" alt="Produto offgrid3d 7" loading="lazy" />
+                <div class="slide-overlay"><span>Ver em detalhe</span></div>
+              </div>
+            </div>
+
+            <div class="carousel-slide" role="group" aria-roledescription="diapositivo" aria-label="Produto 8 de 17">
+              <div class="slide-inner">
+                <img src="images/produtos/produto08.jpeg" alt="Produto offgrid3d 8" loading="lazy" />
+                <div class="slide-overlay"><span>Ver em detalhe</span></div>
+              </div>
+            </div>
+
+            <div class="carousel-slide" role="group" aria-roledescription="diapositivo" aria-label="Produto 9 de 17">
+              <div class="slide-inner">
+                <img src="images/produtos/produto09.jpeg" alt="Produto offgrid3d 9" loading="lazy" />
+                <div class="slide-overlay"><span>Ver em detalhe</span></div>
+              </div>
+            </div>
+
+            <div class="carousel-slide" role="group" aria-roledescription="diapositivo" aria-label="Produto 10 de 17">
+              <div class="slide-inner">
+                <img src="images/produtos/produto10.jpeg" alt="Produto offgrid3d 10" loading="lazy" />
+                <div class="slide-overlay"><span>Ver em detalhe</span></div>
+              </div>
+            </div>
+
+            <div class="carousel-slide" role="group" aria-roledescription="diapositivo" aria-label="Produto 11 de 17">
+              <div class="slide-inner">
+                <img src="images/produtos/produto11.jpeg" alt="Produto offgrid3d 11" loading="lazy" />
+                <div class="slide-overlay"><span>Ver em detalhe</span></div>
+              </div>
+            </div>
+
+            <div class="carousel-slide" role="group" aria-roledescription="diapositivo" aria-label="Produto 12 de 17">
+              <div class="slide-inner">
+                <img src="images/produtos/produto12.jpeg" alt="Produto offgrid3d 12" loading="lazy" />
+                <div class="slide-overlay"><span>Ver em detalhe</span></div>
+              </div>
+            </div>
+
+            <div class="carousel-slide" role="group" aria-roledescription="diapositivo" aria-label="Produto 13 de 17">
+              <div class="slide-inner">
+                <img src="images/produtos/produto13.jpeg" alt="Produto offgrid3d 13" loading="lazy" />
+                <div class="slide-overlay"><span>Ver em detalhe</span></div>
+              </div>
+            </div>
+
+            <div class="carousel-slide" role="group" aria-roledescription="diapositivo" aria-label="Produto 14 de 17">
+              <div class="slide-inner">
+                <img src="images/produtos/produto14.jpeg" alt="Produto offgrid3d 14" loading="lazy" />
+                <div class="slide-overlay"><span>Ver em detalhe</span></div>
+              </div>
+            </div>
+
+            <div class="carousel-slide" role="group" aria-roledescription="diapositivo" aria-label="Produto 15 de 17">
+              <div class="slide-inner">
+                <img src="images/produtos/produto15.jpeg" alt="Produto offgrid3d 15" loading="lazy" />
+                <div class="slide-overlay"><span>Ver em detalhe</span></div>
+              </div>
+            </div>
+
+            <div class="carousel-slide" role="group" aria-roledescription="diapositivo" aria-label="Produto 16 de 17">
+              <div class="slide-inner">
+                <img src="images/produtos/produto16.jpeg" alt="Produto offgrid3d 16" loading="lazy" />
+                <div class="slide-overlay"><span>Ver em detalhe</span></div>
+              </div>
+            </div>
+
+            <div class="carousel-slide" role="group" aria-roledescription="diapositivo" aria-label="Produto 17 de 17">
+              <div class="slide-inner">
+                <img src="images/produtos/produto17.jpeg" alt="Produto offgrid3d 17" loading="lazy" />
+                <div class="slide-overlay"><span>Ver em detalhe</span></div>
+              </div>
+            </div>
+
+          </div><!-- /carrossel-track -->
+        </div><!-- /carrossel -->
+
+        <button class="carousel-btn prev" id="prevBtn" aria-label="Produto anterior">&#8592;</button>
+        <button class="carousel-btn next" id="nextBtn" aria-label="Próximo produto">&#8594;</button>
+
+        <div class="carousel-dots" id="carouselDots" role="tablist" aria-label="Selecionar produto"></div>
+      </div>
+
+      <div class="produtos-cta">
+        <p>Tens uma ideia em mente? Fala connosco e criamos algo único para ti.</p>
+        <a href="#contactos" class="btn btn-primary">Encomendar Agora</a>
+      </div>
+    </section>
+
+    <!-- ═══════ LIGHTBOX ═══════ -->
+    <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Visualização de produto" hidden>
+      <button class="lightbox-close" id="lightboxClose" aria-label="Fechar">✕</button>
+      <button class="lightbox-nav lb-prev" id="lbPrev" aria-label="Imagem anterior">&#8592;</button>
+      <div class="lightbox-img-wrap">
+        <img src="" alt="" id="lightboxImg" />
+      </div>
+      <button class="lightbox-nav lb-next" id="lbNext" aria-label="Próxima imagem">&#8594;</button>
+      <div class="lightbox-counter" id="lightboxCounter" aria-live="polite"></div>
+    </div>
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+
+    <!-- ═══════ SOBRE NÓS ═══════ -->
+    <section id="sobre" class="sobre" aria-label="Sobre nós">
+      <div class="sobre-inner">
+        <div class="sobre-text">
+          <div class="section-tag">— A Nossa História</div>
+          <h2 class="section-title">Sobre a <span class="accent">offgrid3d</span></h2>
+          <p>
+            A <strong>offgrid3d</strong> nasceu da paixão pela tecnologia e pela vontade de criar
+            algo diferente — fora dos circuitos convencionais, com liberdade total para inovar.
+            Somos um estúdio de impressão 3D dedicado a transformar ficheiros digitais em objetos
+            físicos com acabamento profissional.
+          </p>
+          <p>
+            Utilizamos tecnologia <strong>FDM (Fused Deposition Modeling)</strong> com materiais
+            de alta qualidade — PLA, PETG, TPU e outros — para criar peças personalizadas,
+            protótipos funcionais, decoração, ferramentas e muito mais. Cada projeto é tratado
+            como único, com atenção ao detalhe e ao cliente.
+          </p>
+          <p>
+            O nosso slogan <em>"Fora da rede, dentro da inovação"</em> resume o que somos:
+            independentes no pensamento, mas totalmente ligados ao futuro. Acreditamos que a
+            impressão 3D é uma das tecnologias mais democratizantes da atualidade — e queremos
+            pô-la ao serviço de toda a gente.
+          </p>
+          <a href="#contactos" class="btn btn-primary" style="margin-top:1rem">Contacta-nos</a>
+        </div>
+
+        <div class="sobre-features">
+          <div class="feature-card">
+            <div class="feature-icon" aria-hidden="true">⬡</div>
+            <h3>Personalização Total</h3>
+            <p>Cada peça é fabricada de raiz segundo as tuas especificações. Cor, dimensão, material — tudo ao teu gosto.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon" aria-hidden="true">◈</div>
+            <h3>Qualidade Profissional</h3>
+            <p>Impressoras calibradas, filamentos premium e controlo de qualidade em cada camada. O resultado fala por si.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon" aria-hidden="true">⟳</div>
+            <h3>Entrega Rápida</h3>
+            <p>Da encomenda à entrega em tempo record. Prototipagem ágil para quem não pode esperar.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon" aria-hidden="true">✦</div>
+            <h3>Inovação Contínua</h3>
+            <p>Exploramos novos materiais, técnicas e geometrias. A tecnologia avança — e nós avançamos com ela.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ PROCESSO ═══════ -->
+    <section class="processo" aria-label="Como funciona">
+      <div class="section-header">
+        <div class="section-tag">— Como Funciona</div>
+        <h2 class="section-title">Do conceito ao <span class="accent">objeto</span></h2>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num" aria-hidden="true">01</div>
+          <h3>Ideia ou Ficheiro</h3>
+          <p>Envia-nos a tua ideia, um esboço ou um ficheiro STL/3MF já pronto.</p>
+        </div>
+        <div class="step-arrow" aria-hidden="true">→</div>
+        <div class="step">
+          <div class="step-num" aria-hidden="true">02</div>
+          <h3>Orçamento</h3>
+          <p>Analisamos o projeto e enviamos um orçamento personalizado sem compromisso.</p>
+        </div>
+        <div class="step-arrow" aria-hidden="true">→</div>
+        <div class="step">
+          <div class="step-num" aria-hidden="true">03</div>
+          <h3>Impressão</h3>
+          <p>A peça é fabricada com precisão, camada a camada, com o material escolhido.</p>
+        </div>
+        <div class="step-arrow" aria-hidden="true">→</div>
+        <div class="step">
+          <div class="step-num" aria-hidden="true">04</div>
+          <h3>Entrega</h3>
+          <p>Recebes a tua peça em casa ou por levantamento. Simples assim.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ CONTACTOS ═══════ -->
+    <section id="contactos" class="contactos" aria-label="Contactos">
+      <div class="contactos-inner">
+        <div class="section-header" style="text-align:left; margin-bottom:2.5rem;">
+          <div class="section-tag">— Fala Connosco</div>
+          <h2 class="section-title">Vamos criar<br><span class="accent">algo juntos</span></h2>
+          <p class="section-desc" style="text-align:left;">
+            Tens um projeto, uma ideia ou uma dúvida? Estamos disponíveis nas nossas redes
+            sociais e WhatsApp. Respondemos o mais rápido possível.
+          </p>
+        </div>
+
+        <div class="social-grid">
+
+          <!-- FACEBOOK -->
+          <a href="https://www.facebook.com/share/1HDjzAGc1t/"
+             class="social-card facebook"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Visitar página no Facebook">
+            <div class="social-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="32" height="32">
+                <path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.235 2.686.235v2.97h-1.513c-1.491 0-1.956.93-1.956 1.883v2.286h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/>
+              </svg>
+            </div>
+            <div class="social-info">
+              <span class="social-name">Facebook</span>
+              <span class="social-handle">@offgrid3d</span>
+            </div>
+            <span class="social-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <!-- TIKTOK -->
+          <a href="https://www.tiktok.com/@off_grid_3d?_r=1&_t=ZG-95LWD3ZSmHI"
+             class="social-card tiktok"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Visitar perfil no TikTok">
+            <div class="social-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="32" height="32">
+                <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.76a4.85 4.85 0 01-1.01-.07z"/>
+              </svg>
+            </div>
+            <div class="social-info">
+              <span class="social-name">TikTok</span>
+              <span class="social-handle">@offgrid3d</span>
+            </div>
+            <span class="social-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <!-- INSTAGRAM -->
+          <a href="https://www.instagram.com/offgrid3d"
+             class="social-card instagram"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Visitar perfil no Instagram">
+            <div class="social-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="32" height="32">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </div>
+            <div class="social-info">
+              <span class="social-name">Instagram</span>
+              <span class="social-handle">@offgrid3d</span>
+            </div>
+            <span class="social-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <!-- WHATSAPP -->
+          <a href="https://wa.me/c/351232416356"
+             class="social-card whatsapp"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Enviar mensagem no WhatsApp">
+            <div class="social-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="32" height="32">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+            </div>
+            <div class="social-info">
+              <span class="social-name">WhatsApp</span>
+              <span class="social-handle">Fala connosco</span>
+            </div>
+            <span class="social-arrow" aria-hidden="true">↗</span>
+          </a>
+
+        </div>
+
+        <div class="contactos-note">
+          <p>📍 Portugal &nbsp;·&nbsp; 🕐 Resposta em menos de 24h &nbsp;·&nbsp; 📦 Envios para todo o país</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════ FOOTER ═══════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="logo.jpeg" alt="offgrid3d" class="footer-logo"
+             onerror="this.style.display='none'" />
+        <span class="footer-name">offgrid3d</span>
+      </div>
+      <p class="footer-slogan">Fora da rede, dentro da inovação.</p>
+      <nav class="footer-nav" aria-label="Navegação do rodapé">
+        <a href="#inicio">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#sobre">Sobre Nós</a>
+        <a href="#contactos">Contactos</a>
+      </nav>
+      <p class="footer-copy">&copy; <span id="year"></span> offgrid3d. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
